@@ -1,0 +1,26 @@
+{
+  "name": "474",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "parcel": "^2.0.0-beta.2",
+    "react-dom": "^17.0.2",
+    "react": "^17.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndemmel/474.git"
+  },
+  "author": "Nikki Demmel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ndemmel/474/issues"
+  },
+  "homepage": "https://github.com/ndemmel/474#readme"
+}
