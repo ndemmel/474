@@ -2,7 +2,7 @@
   "name": "474",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.html",
   "dependencies": {
     "parcel": "^2.0.0-beta.2",
     "react-dom": "^17.0.2",
@@ -11,6 +11,7 @@
   "devDependencies": {},
   "scripts": {
     "start": "parcel index.html",
+    "build": "parcel build index.html --public-url https://ndemmel.github.io/474/ rm -rf docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

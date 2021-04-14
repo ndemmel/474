@@ -26273,16 +26273,101 @@ try {
   var _react = require("react");
   var _reactDefault = _parcelHelpers.interopDefault(_react);
   var _jsxFileName = "C:\\Users\\nikki\\desktop\\infoprojects\\dataviz\\474\\src\\App.js";
+  const viewHeight = 500;
+  const viewWidth = 500;
   const App = () => {
     return (
-      /*#__PURE__*/_reactDefault.default.createElement("div", {
+      /*#__PURE__*/_reactDefault.default.createElement("svg", {
+        style: {
+          border: "1px solid pink",
+          width: viewWidth,
+          height: viewHeight
+        },
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 4,
-          columnNumber: 12
+          lineNumber: 8,
+          columnNumber: 5
         }
-      }, "hello world from react")
+      }, /*#__PURE__*/_reactDefault.default.createElement("circle", {
+        cx: viewHeight - 100,
+        cy: viewWidth - 100,
+        r: "5",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("rect", {
+        x: 20,
+        y: 40,
+        width: 15,
+        height: 20,
+        fill: "red",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("line", {
+        x1: "200",
+        y1: "100",
+        x2: "300",
+        y2: "250",
+        stroke: "purple",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 12,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("circle", {
+        cx: viewHeight - 50,
+        cy: viewWidth - 250,
+        r: "5",
+        fill: "orange",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("circle", {
+        cx: viewHeight - 50,
+        cy: viewWidth - 250,
+        r: "15",
+        fill: "rgb(185, 200, 50)",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("ellipse", {
+        cx: "400",
+        cy: "20",
+        rx: "50",
+        ry: "100",
+        fill: "green",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("text", {
+        x: "40",
+        y: "20",
+        class: "small",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18,
+          columnNumber: 9
+        }
+      }, "words words words"))
     );
   };
   _c = App;
